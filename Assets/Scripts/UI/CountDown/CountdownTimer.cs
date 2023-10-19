@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public int countdown = 10;
-    public bool isCounting = true;
+    private int countdown = 10;
+    private bool isCounting = true;
 
     void Update()
     {
