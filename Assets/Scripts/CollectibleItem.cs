@@ -5,7 +5,7 @@ public class CollectibleItem : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Check if the colliding object has the "Player" tag.
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Batman"))
         {
             // Find the GameManager script and call the AddCollectedCoin method.
             GameManager gameManager = FindObjectOfType<GameManager>();
